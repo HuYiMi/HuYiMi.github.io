@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo博客实现流程</title>
+    <url>/post/hexo/1/</url>
+    <content><![CDATA[<h2 id="hexo官网-https-hexo-io-zh-cn"><a href="#hexo官网-https-hexo-io-zh-cn" class="headerlink" title="hexo官网 https://hexo.io/zh-cn/"></a>hexo官网 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></h2><h2 id="一-hexo搭建步骤"><a href="#一-hexo搭建步骤" class="headerlink" title="一.hexo搭建步骤"></a>一.hexo搭建步骤</h2><h3 id="1-安装Node-js"><a href="#1-安装Node-js" class="headerlink" title="1.安装Node.js"></a>1.安装Node.js</h3><h3 id="2-安装Git"><a href="#2-安装Git" class="headerlink" title="2.安装Git"></a>2.安装Git</h3><h3 id="3-在GitHub创建个人仓库"><a href="#3-在GitHub创建个人仓库" class="headerlink" title="3.在GitHub创建个人仓库"></a>3.在GitHub创建个人仓库</h3><h3 id="4-生成ssh添加到GitHub"><a href="#4-生成ssh添加到GitHub" class="headerlink" title="4.生成ssh添加到GitHub"></a>4.生成ssh添加到GitHub</h3><h3 id="5-将hexo部署到GitHub"><a href="#5-将hexo部署到GitHub" class="headerlink" title="5.将hexo部署到GitHub"></a>5.将hexo部署到GitHub</h3><h3 id="6-hexo主题布局"><a href="#6-hexo主题布局" class="headerlink" title="6.hexo主题布局"></a>6.hexo主题布局</h3><h2 id="二-hexo博客实现"><a href="#二-hexo博客实现" class="headerlink" title="二.hexo博客实现"></a>二.hexo博客实现</h2><h3 id="1-安装hexo-cli，按Enter键回车"><a href="#1-安装hexo-cli，按Enter键回车" class="headerlink" title="1.安装hexo-cli，按Enter键回车"></a>1.安装hexo-cli，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h3 id="2-创建博客blog，按Enter键回车"><a href="#2-创建博客blog，按Enter键回车" class="headerlink" title="2.创建博客blog，按Enter键回车"></a>2.创建博客blog，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
+<h3 id="3-安装依赖-cd-blog，按Enter键回车"><a href="#3-安装依赖-cd-blog，按Enter键回车" class="headerlink" title="3.安装依赖 cd blog，按Enter键回车"></a>3.安装依赖 cd blog，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i</span><br></pre></td></tr></table></figure>
+<h3 id="4-生成静态界面，按Enter键回车"><a href="#4-生成静态界面，按Enter键回车" class="headerlink" title="4.生成静态界面，按Enter键回车"></a>4.生成静态界面，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
+<h3 id="5-启动服务，按Enter键回车"><a href="#5-启动服务，按Enter键回车" class="headerlink" title="5.启动服务，按Enter键回车"></a>5.启动服务，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<h3 id="6-实现界面"><a href="#6-实现界面" class="headerlink" title="6.实现界面"></a>6.实现界面</h3><p><img src="1.png"></p>
+<h2 id="三-生成ssh添加到GitHub"><a href="#三-生成ssh添加到GitHub" class="headerlink" title="三.生成ssh添加到GitHub"></a>三.生成ssh添加到GitHub</h2><h3 id="1-注册一个GitHub账户-https-github-com"><a href="#1-注册一个GitHub账户-https-github-com" class="headerlink" title="1.注册一个GitHub账户 https://github.com/"></a>1.注册一个GitHub账户 <a href="https://github.com/">https://github.com/</a></h3><h3 id="2-创建一个跟你同名仓库，后面加上-github-io"><a href="#2-创建一个跟你同名仓库，后面加上-github-io" class="headerlink" title="2.创建一个跟你同名仓库，后面加上.github.io."></a>2.创建一个跟你同名仓库，后面加上.github.io.</h3><p><img src="2.png"></p>
+<h3 id="3-生成ssh添加到GitHub，按Enter键回车"><a href="#3-生成ssh添加到GitHub，按Enter键回车" class="headerlink" title="3.生成ssh添加到GitHub，按Enter键回车"></a>3.生成ssh添加到GitHub，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;github用户名&quot;</span><br><span class="line">git config --global user.name &quot;github邮箱&quot;</span><br></pre></td></tr></table></figure>
+<h3 id="4-检测是否添加成功，按Enter键回车"><a href="#4-检测是否添加成功，按Enter键回车" class="headerlink" title="4.检测是否添加成功，按Enter键回车"></a>4.检测是否添加成功，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git config -l</span><br></pre></td></tr></table></figure>
+<p><img src="3.png"></p>
+<h3 id="5-创建ssh，按Enter键回车"><a href="#5-创建ssh，按Enter键回车" class="headerlink" title="5.创建ssh，按Enter键回车"></a>5.创建ssh，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;github邮箱&quot;</span><br></pre></td></tr></table></figure>
+<p><img src="4.png"></p>
+<h3 id="6-id-rsa-pub内容复制到GitHub上"><a href="#6-id-rsa-pub内容复制到GitHub上" class="headerlink" title="6.id_rsa.pub内容复制到GitHub上"></a>6.id_rsa.pub内容复制到GitHub上</h3><p><img src="5.png"></p>
+<h3 id="7-检测是否添加成功"><a href="#7-检测是否添加成功" class="headerlink" title="7.检测是否添加成功"></a>7.检测是否添加成功</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">ssh git@github.com</span><br></pre></td></tr></table></figure>
+<p><img src="6.png"></p>
+<h2 id="四-hexo部署到GitHub"><a href="#四-hexo部署到GitHub" class="headerlink" title="四.hexo部署到GitHub"></a>四.hexo部署到GitHub</h2><h3 id="1-双击打开hexo项目，进入项目配置文件-config-yml-在最下面，修改deploy"><a href="#1-双击打开hexo项目，进入项目配置文件-config-yml-在最下面，修改deploy" class="headerlink" title="1.双击打开hexo项目，进入项目配置文件_config.yml,在最下面，修改deploy"></a>1.双击打开hexo项目，进入项目配置文件_config.yml,在最下面，修改deploy</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line"> type: git</span><br><span class="line"> repo:  https://GitHub中的token@github.com/HuYiMi/HuYiMi.github.io.git</span><br><span class="line"> branch: master</span><br></pre></td></tr></table></figure>
+<p><img src="7.png"><br><img src="8.png"></p>
+<h3 id="2-安装hexo-deployer-git-然后执行hexo命令"><a href="#2-安装hexo-deployer-git-然后执行hexo命令" class="headerlink" title="2.安装hexo-deployer-git,然后执行hexo命令"></a>2.安装hexo-deployer-git,然后执行hexo命令</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i hexo-deployer-git --save</span><br><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/post/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hexo主题</title>
+    <url>/post/hexo/2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>node.js安装及配置环境变量</title>
+    <url>/post/node/1/</url>
+    <content><![CDATA[<h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-Node-js：v16-13-1-64位"><a href="#2-Node-js：v16-13-1-64位" class="headerlink" title="2.Node.js：v16.13.1(64位)"></a>2.Node.js：v16.13.1(64位)</h3><h2 id="二-安装node-js步骤"><a href="#二-安装node-js步骤" class="headerlink" title="二.安装node.js步骤"></a>二.安装node.js步骤</h2><h3 id="1-下载路径-https-nodejs-org-zh-cn-download"><a href="#1-下载路径-https-nodejs-org-zh-cn-download" class="headerlink" title="1.下载路径 https://nodejs.org/zh-cn/download/"></a>1.下载路径 <a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></h3><h3 id="3-环境变量配置"><a href="#3-环境变量配置" class="headerlink" title="3.环境变量配置"></a>3.环境变量配置</h3><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
+<h3 id="2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js"><a href="#2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js" class="headerlink" title="2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js"></a>2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js</h3><p><img src="2.png"></p>
+<h3 id="3-点击【Next】按钮"><a href="#3-点击【Next】按钮" class="headerlink" title="3.点击【Next】按钮"></a>3.点击【Next】按钮</h3><p><img src="3.png"></p>
+<h3 id="4-勾选复选框，点击【Next】按钮"><a href="#4-勾选复选框，点击【Next】按钮" class="headerlink" title="4.勾选复选框，点击【Next】按钮"></a>4.勾选复选框，点击【Next】按钮</h3><p><img src="4.png"></p>
+<h3 id="5-选择自己安装的路径，点击【Next】按钮"><a href="#5-选择自己安装的路径，点击【Next】按钮" class="headerlink" title="5.选择自己安装的路径，点击【Next】按钮"></a>5.选择自己安装的路径，点击【Next】按钮</h3><p><img src="5.png"></p>
+<h3 id="6-点击【Next】按钮"><a href="#6-点击【Next】按钮" class="headerlink" title="6.点击【Next】按钮"></a>6.点击【Next】按钮</h3><p><img src="6.png"></p>
+<h3 id="7-点击【Install】按钮"><a href="#7-点击【Install】按钮" class="headerlink" title="7.点击【Install】按钮"></a>7.点击【Install】按钮</h3><p><img src="7.png"></p>
+<h3 id="8-安装完毕后点击【Finish】按钮，整个安装流程结束"><a href="#8-安装完毕后点击【Finish】按钮，整个安装流程结束" class="headerlink" title="8.安装完毕后点击【Finish】按钮，整个安装流程结束"></a>8.安装完毕后点击【Finish】按钮，整个安装流程结束</h3><p><img src="8.png"></p>
+<h3 id="9-重启及检测node环境变量是否安装"><a href="#9-重启及检测node环境变量是否安装" class="headerlink" title="9.重启及检测node环境变量是否安装"></a>9.重启及检测node环境变量是否安装</h3><p><img src="9.png"></p>
+<h2 id="四-配置环境变量及检测"><a href="#四-配置环境变量及检测" class="headerlink" title="四.配置环境变量及检测"></a>四.配置环境变量及检测</h2><p><img src="10.png"><br><img src="11.png"></p>
+]]></content>
+      <categories>
+        <category>node</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
+      </tags>
+  </entry>
+</search>
