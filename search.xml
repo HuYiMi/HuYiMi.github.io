@@ -39,27 +39,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo源码上传GitHub</title>
-    <url>/post/hexo/2/</url>
-    <content><![CDATA[<h3 id="1-在创建hexo仓库中创建分支"><a href="#1-在创建hexo仓库中创建分支" class="headerlink" title="1.在创建hexo仓库中创建分支"></a>1.在创建hexo仓库中创建分支</h3><p><img src="1.png"></p>
-<h3 id="2-修改默认master分支"><a href="#2-修改默认master分支" class="headerlink" title="2.修改默认master分支"></a>2.修改默认master分支</h3><p><img src="2.png"></p>
-<h3 id="3-新建一个文件夹，克隆GitHub中hexo项目"><a href="#3-新建一个文件夹，克隆GitHub中hexo项目" class="headerlink" title="3.新建一个文件夹，克隆GitHub中hexo项目"></a>3.新建一个文件夹，克隆GitHub中hexo项目</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/LiYeZhiXiu/LiYeZhiXiu.github.io.git</span><br></pre></td></tr></table></figure>
-<p><img src="3.png"></p>
-<h3 id="4-进入LiYeZhiXiu-github-io文件夹中，把除-git文件夹外的所有文件删除"><a href="#4-进入LiYeZhiXiu-github-io文件夹中，把除-git文件夹外的所有文件删除" class="headerlink" title="4.进入LiYeZhiXiu.github.io文件夹中，把除.git文件夹外的所有文件删除"></a>4.进入LiYeZhiXiu.github.io文件夹中，把除.git文件夹外的所有文件删除</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> LiYeZhiXiu.github.io</span><br></pre></td></tr></table></figure>
-<p><img src="4.png"></p>
-<h3 id="5-把写的博客源文件全部复制过来，除-deploy-git-其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个-git文件，多余都删除。"><a href="#5-把写的博客源文件全部复制过来，除-deploy-git-其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个-git文件，多余都删除。" class="headerlink" title="5.把写的博客源文件全部复制过来，除.deploy.git.其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个.git文件，多余都删除。"></a>5.把写的博客源文件全部复制过来，除.deploy.git.其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个.git文件，多余都删除。</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">.DS_Store</span><br><span class="line">Thumbs.db</span><br><span class="line">db.json</span><br><span class="line">*.log</span><br><span class="line">node_modules/</span><br><span class="line">public/</span><br><span class="line">.deploy*/</span><br></pre></td></tr></table></figure>
-<h3 id="6-把博客上传到GitHub中的分支中"><a href="#6-把博客上传到GitHub中的分支中" class="headerlink" title="6.把博客上传到GitHub中的分支中"></a>6.把博客上传到GitHub中的分支中</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;add branch&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
-<p><img src="5.png"></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo博客实现流程</title>
     <url>/post/hexo/1/</url>
     <content><![CDATA[<h2 id="hexo官网-https-hexo-io-zh-cn"><a href="#hexo官网-https-hexo-io-zh-cn" class="headerlink" title="hexo官网 https://hexo.io/zh-cn/"></a>hexo官网 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></h2><h2 id="一-hexo搭建步骤"><a href="#一-hexo搭建步骤" class="headerlink" title="一.hexo搭建步骤"></a>一.hexo搭建步骤</h2><h3 id="1-安装Node-js-https-LiYeZhiXiu-github-io-post-node-1"><a href="#1-安装Node-js-https-LiYeZhiXiu-github-io-post-node-1" class="headerlink" title="1.安装Node.js https://LiYeZhiXiu.github.io/post/node/1/"></a>1.安装Node.js <a href="https://liyezhixiu.github.io/post/node/1/">https://LiYeZhiXiu.github.io/post/node/1/</a></h3><h3 id="2-安装Git-http-LiYeZhiXiu-github-io-post-git-1"><a href="#2-安装Git-http-LiYeZhiXiu-github-io-post-git-1" class="headerlink" title="2.安装Git http://LiYeZhiXiu.github.io/post/git/1/"></a>2.安装Git <a href="http://liyezhixiu.github.io/post/git/1/">http://LiYeZhiXiu.github.io/post/git/1/</a></h3><h3 id="3-在GitHub创建个人仓库及生成ssh添加到GitHub"><a href="#3-在GitHub创建个人仓库及生成ssh添加到GitHub" class="headerlink" title="3.在GitHub创建个人仓库及生成ssh添加到GitHub"></a>3.在GitHub创建个人仓库及生成ssh添加到GitHub</h3><h3 id="4-将hexo部署到GitHub"><a href="#4-将hexo部署到GitHub" class="headerlink" title="4.将hexo部署到GitHub"></a>4.将hexo部署到GitHub</h3><h2 id="二-hexo博客实现"><a href="#二-hexo博客实现" class="headerlink" title="二.hexo博客实现"></a>二.hexo博客实现</h2><h3 id="1-安装hexo-cli，按Enter键回车"><a href="#1-安装hexo-cli，按Enter键回车" class="headerlink" title="1.安装hexo-cli，按Enter键回车"></a>1.安装hexo-cli，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
@@ -97,24 +76,24 @@
       </tags>
   </entry>
   <entry>
-    <title>node.js安装及配置环境变量</title>
-    <url>/post/node/1/</url>
-    <content><![CDATA[<h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-Node-js：v16-13-1-64位"><a href="#2-Node-js：v16-13-1-64位" class="headerlink" title="2.Node.js：v16.13.1(64位)"></a>2.Node.js：v16.13.1(64位)</h3><h2 id="二-安装node-js步骤"><a href="#二-安装node-js步骤" class="headerlink" title="二.安装node.js步骤"></a>二.安装node.js步骤</h2><h3 id="1-下载路径-https-nodejs-org-zh-cn-download"><a href="#1-下载路径-https-nodejs-org-zh-cn-download" class="headerlink" title="1.下载路径 https://nodejs.org/zh-cn/download/"></a>1.下载路径 <a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></h3><h3 id="3-环境变量配置"><a href="#3-环境变量配置" class="headerlink" title="3.环境变量配置"></a>3.环境变量配置</h3><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
-<h3 id="2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js"><a href="#2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js" class="headerlink" title="2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js"></a>2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js</h3><p><img src="2.png"></p>
-<h3 id="3-点击【Next】按钮"><a href="#3-点击【Next】按钮" class="headerlink" title="3.点击【Next】按钮"></a>3.点击【Next】按钮</h3><p><img src="3.png"></p>
-<h3 id="4-勾选复选框，点击【Next】按钮"><a href="#4-勾选复选框，点击【Next】按钮" class="headerlink" title="4.勾选复选框，点击【Next】按钮"></a>4.勾选复选框，点击【Next】按钮</h3><p><img src="4.png"></p>
-<h3 id="5-选择自己安装的路径，点击【Next】按钮"><a href="#5-选择自己安装的路径，点击【Next】按钮" class="headerlink" title="5.选择自己安装的路径，点击【Next】按钮"></a>5.选择自己安装的路径，点击【Next】按钮</h3><p><img src="5.png"></p>
-<h3 id="6-点击【Next】按钮"><a href="#6-点击【Next】按钮" class="headerlink" title="6.点击【Next】按钮"></a>6.点击【Next】按钮</h3><p><img src="6.png"></p>
-<h3 id="7-点击【Install】按钮"><a href="#7-点击【Install】按钮" class="headerlink" title="7.点击【Install】按钮"></a>7.点击【Install】按钮</h3><p><img src="7.png"></p>
-<h3 id="8-安装完毕后点击【Finish】按钮，整个安装流程结束"><a href="#8-安装完毕后点击【Finish】按钮，整个安装流程结束" class="headerlink" title="8.安装完毕后点击【Finish】按钮，整个安装流程结束"></a>8.安装完毕后点击【Finish】按钮，整个安装流程结束</h3><p><img src="8.png"></p>
-<h3 id="9-重启及检测node环境变量是否安装"><a href="#9-重启及检测node环境变量是否安装" class="headerlink" title="9.重启及检测node环境变量是否安装"></a>9.重启及检测node环境变量是否安装</h3><p><img src="9.png"></p>
-<h2 id="四-配置环境变量及检测"><a href="#四-配置环境变量及检测" class="headerlink" title="四.配置环境变量及检测"></a>四.配置环境变量及检测</h2><p><img src="10.png"><br><img src="11.png"></p>
+    <title>Hexo源码上传GitHub</title>
+    <url>/post/hexo/2/</url>
+    <content><![CDATA[<h3 id="1-在创建hexo仓库中创建分支"><a href="#1-在创建hexo仓库中创建分支" class="headerlink" title="1.在创建hexo仓库中创建分支"></a>1.在创建hexo仓库中创建分支</h3><p><img src="1.png"></p>
+<h3 id="2-修改默认master分支"><a href="#2-修改默认master分支" class="headerlink" title="2.修改默认master分支"></a>2.修改默认master分支</h3><p><img src="2.png"></p>
+<h3 id="3-新建一个文件夹，克隆GitHub中hexo项目"><a href="#3-新建一个文件夹，克隆GitHub中hexo项目" class="headerlink" title="3.新建一个文件夹，克隆GitHub中hexo项目"></a>3.新建一个文件夹，克隆GitHub中hexo项目</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/LiYeZhiXiu/LiYeZhiXiu.github.io.git</span><br></pre></td></tr></table></figure>
+<p><img src="3.png"></p>
+<h3 id="4-进入LiYeZhiXiu-github-io文件夹中，把除-git文件夹外的所有文件删除"><a href="#4-进入LiYeZhiXiu-github-io文件夹中，把除-git文件夹外的所有文件删除" class="headerlink" title="4.进入LiYeZhiXiu.github.io文件夹中，把除.git文件夹外的所有文件删除"></a>4.进入LiYeZhiXiu.github.io文件夹中，把除.git文件夹外的所有文件删除</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> LiYeZhiXiu.github.io</span><br></pre></td></tr></table></figure>
+<p><img src="4.png"></p>
+<h3 id="5-把写的博客源文件全部复制过来，除-deploy-git-其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个-git文件，多余都删除。"><a href="#5-把写的博客源文件全部复制过来，除-deploy-git-其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个-git文件，多余都删除。" class="headerlink" title="5.把写的博客源文件全部复制过来，除.deploy.git.其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个.git文件，多余都删除。"></a>5.把写的博客源文件全部复制过来，除.deploy.git.其中。gitignore文件用来忽略一些不需要的文件，没有自己建一个。注意项目中只能有一个.git文件，多余都删除。</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">.DS_Store</span><br><span class="line">Thumbs.db</span><br><span class="line">db.json</span><br><span class="line">*.log</span><br><span class="line">node_modules/</span><br><span class="line">public/</span><br><span class="line">.deploy*/</span><br></pre></td></tr></table></figure>
+<h3 id="6-把博客上传到GitHub中的分支中"><a href="#6-把博客上传到GitHub中的分支中" class="headerlink" title="6.把博客上传到GitHub中的分支中"></a>6.把博客上传到GitHub中的分支中</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;add branch&quot;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
+<p><img src="5.png"></p>
 ]]></content>
       <categories>
-        <category>node</category>
+        <category>Hexo</category>
       </categories>
       <tags>
-        <tag>node</tag>
+        <tag>git</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -135,6 +114,27 @@
       <tags>
         <tag>Hexo</tag>
         <tag>butterfly</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>node.js安装及配置环境变量</title>
+    <url>/post/node/1/</url>
+    <content><![CDATA[<h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-Node-js：v16-13-1-64位"><a href="#2-Node-js：v16-13-1-64位" class="headerlink" title="2.Node.js：v16.13.1(64位)"></a>2.Node.js：v16.13.1(64位)</h3><h2 id="二-安装node-js步骤"><a href="#二-安装node-js步骤" class="headerlink" title="二.安装node.js步骤"></a>二.安装node.js步骤</h2><h3 id="1-下载路径-https-nodejs-org-zh-cn-download"><a href="#1-下载路径-https-nodejs-org-zh-cn-download" class="headerlink" title="1.下载路径 https://nodejs.org/zh-cn/download/"></a>1.下载路径 <a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></h3><h3 id="3-环境变量配置"><a href="#3-环境变量配置" class="headerlink" title="3.环境变量配置"></a>3.环境变量配置</h3><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
+<h3 id="2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js"><a href="#2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js" class="headerlink" title="2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js"></a>2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js</h3><p><img src="2.png"></p>
+<h3 id="3-点击【Next】按钮"><a href="#3-点击【Next】按钮" class="headerlink" title="3.点击【Next】按钮"></a>3.点击【Next】按钮</h3><p><img src="3.png"></p>
+<h3 id="4-勾选复选框，点击【Next】按钮"><a href="#4-勾选复选框，点击【Next】按钮" class="headerlink" title="4.勾选复选框，点击【Next】按钮"></a>4.勾选复选框，点击【Next】按钮</h3><p><img src="4.png"></p>
+<h3 id="5-选择自己安装的路径，点击【Next】按钮"><a href="#5-选择自己安装的路径，点击【Next】按钮" class="headerlink" title="5.选择自己安装的路径，点击【Next】按钮"></a>5.选择自己安装的路径，点击【Next】按钮</h3><p><img src="5.png"></p>
+<h3 id="6-点击【Next】按钮"><a href="#6-点击【Next】按钮" class="headerlink" title="6.点击【Next】按钮"></a>6.点击【Next】按钮</h3><p><img src="6.png"></p>
+<h3 id="7-点击【Install】按钮"><a href="#7-点击【Install】按钮" class="headerlink" title="7.点击【Install】按钮"></a>7.点击【Install】按钮</h3><p><img src="7.png"></p>
+<h3 id="8-安装完毕后点击【Finish】按钮，整个安装流程结束"><a href="#8-安装完毕后点击【Finish】按钮，整个安装流程结束" class="headerlink" title="8.安装完毕后点击【Finish】按钮，整个安装流程结束"></a>8.安装完毕后点击【Finish】按钮，整个安装流程结束</h3><p><img src="8.png"></p>
+<h3 id="9-重启及检测node环境变量是否安装"><a href="#9-重启及检测node环境变量是否安装" class="headerlink" title="9.重启及检测node环境变量是否安装"></a>9.重启及检测node环境变量是否安装</h3><p><img src="9.png"></p>
+<h2 id="四-配置环境变量及检测"><a href="#四-配置环境变量及检测" class="headerlink" title="四.配置环境变量及检测"></a>四.配置环境变量及检测</h2><p><img src="10.png"><br><img src="11.png"></p>
+]]></content>
+      <categories>
+        <category>node</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
       </tags>
   </entry>
 </search>
