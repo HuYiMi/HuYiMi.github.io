@@ -117,6 +117,28 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo之butterfly添加valine评论系统</title>
+    <url>/post/hexo/4/</url>
+    <content><![CDATA[<h2 id="leanCloud官网-https-www-leancloud-cn"><a href="#leanCloud官网-https-www-leancloud-cn" class="headerlink" title="leanCloud官网 https://www.leancloud.cn/"></a>leanCloud官网 <a href="https://www.leancloud.cn/">https://www.leancloud.cn/</a></h2><h2 id="一-注册LeanCloud-获取AppID-AppKey"><a href="#一-注册LeanCloud-获取AppID-AppKey" class="headerlink" title="一.注册LeanCloud,获取AppID,AppKey"></a>一.注册LeanCloud,获取AppID,AppKey</h2><h3 id="1-注册完成后，创建应用"><a href="#1-注册完成后，创建应用" class="headerlink" title="1.注册完成后，创建应用"></a>1.注册完成后，创建应用</h3><p><img src="1.png"></p>
+<h3 id="2-创建Comment-Counter-权限设为所有用户"><a href="#2-创建Comment-Counter-权限设为所有用户" class="headerlink" title="2.创建Comment,Counter,权限设为所有用户"></a>2.创建Comment,Counter,权限设为所有用户</h3><p><img src="2.png"></p>
+<h3 id="3-绑定web安全域名，关闭除数据存储所有服务"><a href="#3-绑定web安全域名，关闭除数据存储所有服务" class="headerlink" title="3.绑定web安全域名，关闭除数据存储所有服务"></a>3.绑定web安全域名，关闭除数据存储所有服务</h3><p><img src="3.png"></p>
+<h3 id="4-获取AppID-AppKey-serverURLs"><a href="#4-获取AppID-AppKey-serverURLs" class="headerlink" title="4.获取AppID,AppKey,serverURLs"></a>4.获取AppID,AppKey,serverURLs</h3><p><img src="4.png"></p>
+<h2 id="二-butterfly主题中配置valine"><a href="#二-butterfly主题中配置valine" class="headerlink" title="二.butterfly主题中配置valine"></a>二.butterfly主题中配置valine</h2><h3 id="1-进入主题中-config-yml-找到comments-取消valine注释"><a href="#1-进入主题中-config-yml-找到comments-取消valine注释" class="headerlink" title="1.进入主题中_config.yml,找到comments,取消valine注释"></a>1.进入主题中_config.yml,找到comments,取消valine注释</h3><p><img src="5.png"></p>
+<h3 id="2-找到valine-配置其中appid-appkey-serverURLs"><a href="#2-找到valine-配置其中appid-appkey-serverURLs" class="headerlink" title="2.找到valine,配置其中appid,appkey,serverURLs"></a>2.找到valine,配置其中appid,appkey,serverURLs</h3><p><img src="6.png"></p>
+<h3 id="3-进入主题中butterfly-layout-third-party-comments-valine-pug目录中-让其中appid和appkey与前面修改变量一致。"><a href="#3-进入主题中butterfly-layout-third-party-comments-valine-pug目录中-让其中appid和appkey与前面修改变量一致。" class="headerlink" title="3.进入主题中butterfly/layout/third-party/comments/valine.pug目录中,让其中appid和appkey与前面修改变量一致。"></a>3.进入主题中butterfly/layout/third-party/comments/valine.pug目录中,让其中appid和appkey与前面修改变量一致。</h3><p><img src="7.png"></p>
+<h2 id="三-测试valine评论"><a href="#三-测试valine评论" class="headerlink" title="三.测试valine评论"></a>三.测试valine评论</h2><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p><img src="8.png"></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+        <tag>valine</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>node.js安装及配置环境变量</title>
     <url>/post/node/1/</url>
     <content><![CDATA[<h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-Node-js：v16-13-1-64位"><a href="#2-Node-js：v16-13-1-64位" class="headerlink" title="2.Node.js：v16.13.1(64位)"></a>2.Node.js：v16.13.1(64位)</h3><h2 id="二-安装node-js步骤"><a href="#二-安装node-js步骤" class="headerlink" title="二.安装node.js步骤"></a>二.安装node.js步骤</h2><h3 id="1-下载路径-https-nodejs-org-zh-cn-download"><a href="#1-下载路径-https-nodejs-org-zh-cn-download" class="headerlink" title="1.下载路径 https://nodejs.org/zh-cn/download/"></a>1.下载路径 <a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></h3><h3 id="3-环境变量配置"><a href="#3-环境变量配置" class="headerlink" title="3.环境变量配置"></a>3.环境变量配置</h3><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
