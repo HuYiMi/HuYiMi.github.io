@@ -3,7 +3,7 @@
   <entry>
     <title>git安装及使用</title>
     <url>/post/git/1/</url>
-    <content><![CDATA[<h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-git：2-34-1-64位"><a href="#2-git：2-34-1-64位" class="headerlink" title="2.git：2.34.1(64位)"></a>2.git：2.34.1(64位)</h3><h2 id="二-下载路径-https-git-scm-com-downloads"><a href="#二-下载路径-https-git-scm-com-downloads" class="headerlink" title="二.下载路径 https://git-scm.com/downloads"></a>二.下载路径 <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></h2><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-git：2-34-1-64位"><a href="#2-git：2-34-1-64位" class="headerlink" title="2.git：2.34.1(64位)"></a>2.git：2.34.1(64位)</h3><h2 id="二-下载路径-https-git-scm-com-downloads"><a href="#二-下载路径-https-git-scm-com-downloads" class="headerlink" title="二.下载路径 https://git-scm.com/downloads"></a>二.下载路径 <a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></h2><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
 <h3 id="2-下载成功后，双击”Git-2-34-1-64-exe”-开始安装git"><a href="#2-下载成功后，双击”Git-2-34-1-64-exe”-开始安装git" class="headerlink" title="2.下载成功后，双击”Git-2.34.1-64.exe”,开始安装git"></a>2.下载成功后，双击”Git-2.34.1-64.exe”,开始安装git</h3><p><img src="2.png"></p>
 <h3 id="3-点击【Next】按钮"><a href="#3-点击【Next】按钮" class="headerlink" title="3.点击【Next】按钮"></a>3.点击【Next】按钮</h3><p><img src="3.png"></p>
 <h3 id="4-点击【Next】按钮"><a href="#4-点击【Next】按钮" class="headerlink" title="4.点击【Next】按钮"></a>4.点击【Next】按钮</h3><p><img src="4.png"></p>
@@ -39,9 +39,14 @@
       </tags>
   </entry>
   <entry>
+    <title>md</title>
+    <url>/post/md/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
     <title>Hexo博客实现流程</title>
     <url>/post/hexo/1/</url>
-    <content><![CDATA[<h2 id="hexo官网-https-hexo-io-zh-cn"><a href="#hexo官网-https-hexo-io-zh-cn" class="headerlink" title="hexo官网 https://hexo.io/zh-cn/"></a>hexo官网 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></h2><h2 id="一-hexo搭建步骤"><a href="#一-hexo搭建步骤" class="headerlink" title="一.hexo搭建步骤"></a>一.hexo搭建步骤</h2><h3 id="1-安装Node-js-https-LiYeZhiXiu-github-io-post-node-1"><a href="#1-安装Node-js-https-LiYeZhiXiu-github-io-post-node-1" class="headerlink" title="1.安装Node.js https://LiYeZhiXiu.github.io/post/node/1/"></a>1.安装Node.js <a href="https://liyezhixiu.github.io/post/node/1/">https://LiYeZhiXiu.github.io/post/node/1/</a></h3><h3 id="2-安装Git-http-LiYeZhiXiu-github-io-post-git-1"><a href="#2-安装Git-http-LiYeZhiXiu-github-io-post-git-1" class="headerlink" title="2.安装Git http://LiYeZhiXiu.github.io/post/git/1/"></a>2.安装Git <a href="http://liyezhixiu.github.io/post/git/1/">http://LiYeZhiXiu.github.io/post/git/1/</a></h3><h3 id="3-在GitHub创建个人仓库及生成ssh添加到GitHub"><a href="#3-在GitHub创建个人仓库及生成ssh添加到GitHub" class="headerlink" title="3.在GitHub创建个人仓库及生成ssh添加到GitHub"></a>3.在GitHub创建个人仓库及生成ssh添加到GitHub</h3><h3 id="4-将hexo部署到GitHub"><a href="#4-将hexo部署到GitHub" class="headerlink" title="4.将hexo部署到GitHub"></a>4.将hexo部署到GitHub</h3><h2 id="二-hexo博客实现"><a href="#二-hexo博客实现" class="headerlink" title="二.hexo博客实现"></a>二.hexo博客实现</h2><h3 id="1-安装hexo-cli，按Enter键回车"><a href="#1-安装hexo-cli，按Enter键回车" class="headerlink" title="1.安装hexo-cli，按Enter键回车"></a>1.安装hexo-cli，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="hexo官网-https-hexo-io-zh-cn"><a href="#hexo官网-https-hexo-io-zh-cn" class="headerlink" title="hexo官网 https://hexo.io/zh-cn/"></a>hexo官网 <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></h2><h2 id="一-hexo搭建步骤"><a href="#一-hexo搭建步骤" class="headerlink" title="一.hexo搭建步骤"></a>一.hexo搭建步骤</h2><h3 id="1-安装Node-js-https-LiYeZhiXiu-github-io-post-node-1"><a href="#1-安装Node-js-https-LiYeZhiXiu-github-io-post-node-1" class="headerlink" title="1.安装Node.js https://LiYeZhiXiu.github.io/post/node/1/"></a>1.安装Node.js <a href="https://liyezhixiu.github.io/post/node/1/">https://LiYeZhiXiu.github.io/post/node/1/</a></h3><h3 id="2-安装Git-http-LiYeZhiXiu-github-io-post-git-1"><a href="#2-安装Git-http-LiYeZhiXiu-github-io-post-git-1" class="headerlink" title="2.安装Git http://LiYeZhiXiu.github.io/post/git/1/"></a>2.安装Git <a href="http://liyezhixiu.github.io/post/git/1/">http://LiYeZhiXiu.github.io/post/git/1/</a></h3><h3 id="3-在GitHub创建个人仓库及生成ssh添加到GitHub"><a href="#3-在GitHub创建个人仓库及生成ssh添加到GitHub" class="headerlink" title="3.在GitHub创建个人仓库及生成ssh添加到GitHub"></a>3.在GitHub创建个人仓库及生成ssh添加到GitHub</h3><h3 id="4-将hexo部署到GitHub"><a href="#4-将hexo部署到GitHub" class="headerlink" title="4.将hexo部署到GitHub"></a>4.将hexo部署到GitHub</h3><h2 id="二-hexo博客实现"><a href="#二-hexo博客实现" class="headerlink" title="二.hexo博客实现"></a>二.hexo博客实现</h2><h3 id="1-安装hexo-cli，按Enter键回车"><a href="#1-安装hexo-cli，按Enter键回车" class="headerlink" title="1.安装hexo-cli，按Enter键回车"></a>1.安装hexo-cli，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
 <h3 id="2-创建博客blog，按Enter键回车"><a href="#2-创建博客blog，按Enter键回车" class="headerlink" title="2.创建博客blog，按Enter键回车"></a>2.创建博客blog，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure>
 <h3 id="3-安装依赖-cd-blog，按Enter键回车"><a href="#3-安装依赖-cd-blog，按Enter键回车" class="headerlink" title="3.安装依赖 cd blog，按Enter键回车"></a>3.安装依赖 cd blog，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i</span><br></pre></td></tr></table></figure>
 <h3 id="4-生成静态界面，按Enter键回车"><a href="#4-生成静态界面，按Enter键回车" class="headerlink" title="4.生成静态界面，按Enter键回车"></a>4.生成静态界面，按Enter键回车</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure>
@@ -68,6 +73,7 @@
 ]]></content>
       <categories>
         <category>Hexo</category>
+        <category>Hexo实现流程</category>
       </categories>
       <tags>
         <tag>git</tag>
@@ -78,7 +84,7 @@
   <entry>
     <title>Hexo源码上传GitHub</title>
     <url>/post/hexo/2/</url>
-    <content><![CDATA[<h3 id="1-在创建hexo仓库中创建分支"><a href="#1-在创建hexo仓库中创建分支" class="headerlink" title="1.在创建hexo仓库中创建分支"></a>1.在创建hexo仓库中创建分支</h3><p><img src="1.png"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="1-在创建hexo仓库中创建分支"><a href="#1-在创建hexo仓库中创建分支" class="headerlink" title="1.在创建hexo仓库中创建分支"></a>1.在创建hexo仓库中创建分支</h3><p><img src="1.png"></p>
 <h3 id="2-修改默认master分支"><a href="#2-修改默认master分支" class="headerlink" title="2.修改默认master分支"></a>2.修改默认master分支</h3><p><img src="2.png"></p>
 <h3 id="3-新建一个文件夹，克隆GitHub中hexo项目"><a href="#3-新建一个文件夹，克隆GitHub中hexo项目" class="headerlink" title="3.新建一个文件夹，克隆GitHub中hexo项目"></a>3.新建一个文件夹，克隆GitHub中hexo项目</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/LiYeZhiXiu/LiYeZhiXiu.github.io.git</span><br></pre></td></tr></table></figure>
 <p><img src="3.png"></p>
@@ -90,6 +96,7 @@
 ]]></content>
       <categories>
         <category>Hexo</category>
+        <category>上传GitHub</category>
       </categories>
       <tags>
         <tag>git</tag>
@@ -99,7 +106,7 @@
   <entry>
     <title>hexo主题配置及优化</title>
     <url>/post/hexo/3/</url>
-    <content><![CDATA[<h2 id="一-安装主题"><a href="#一-安装主题" class="headerlink" title="一.安装主题"></a>一.安装主题</h2><h3 id="1-安装主题类型butterfly，在博客根目录下"><a href="#1-安装主题类型butterfly，在博客根目录下" class="headerlink" title="1.安装主题类型butterfly，在博客根目录下"></a>1.安装主题类型butterfly，在博客根目录下</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一-安装主题"><a href="#一-安装主题" class="headerlink" title="一.安装主题"></a>一.安装主题</h2><h3 id="1-安装主题类型butterfly，在博客根目录下"><a href="#1-安装主题类型butterfly，在博客根目录下" class="headerlink" title="1.安装主题类型butterfly，在博客根目录下"></a>1.安装主题类型butterfly，在博客根目录下</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/Butterfly</span><br></pre></td></tr></table></figure>
 <h3 id="2-在博客项目根目录-config-yml修改默认主题landscape"><a href="#2-在博客项目根目录-config-yml修改默认主题landscape" class="headerlink" title="2.在博客项目根目录_config.yml修改默认主题landscape"></a>2.在博客项目根目录_config.yml修改默认主题landscape</h3><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">theme: <span class="title">butterfly</span></span></span><br></pre></td></tr></table></figure>
 <h3 id="3-安装pug和stylus插件"><a href="#3-安装pug和stylus插件" class="headerlink" title="3.安装pug和stylus插件"></a>3.安装pug和stylus插件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm i hexo-renderer-pug hexo-renderer-stylus --save</span><br></pre></td></tr></table></figure>
 <h3 id="4-新建名一个-config-butterfly-yml文件，把-config-yml内容复制到其中"><a href="#4-新建名一个-config-butterfly-yml文件，把-config-yml内容复制到其中" class="headerlink" title="4.新建名一个_config.butterfly.yml文件，把_config.yml内容复制到其中"></a>4.新建名一个_config.butterfly.yml文件，把_config.yml内容复制到其中</h3><h3 id="5-配置导航栏"><a href="#5-配置导航栏" class="headerlink" title="5.配置导航栏"></a>5.配置导航栏</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line"> 主页: / || fas fa-home</span><br><span class="line"> 文档||fas fa-list: </span><br><span class="line">    归档: /archives/ || fas fa-archive</span><br><span class="line">    标签: /tags/ || fas fa-tags</span><br><span class="line">    分类: /categories/ || fas fa-folder-open</span><br><span class="line"> 友链: /link/ || fas fa-link</span><br><span class="line"> 关于: /about/ || fas fa-heart</span><br></pre></td></tr></table></figure>
@@ -110,6 +117,7 @@
 ]]></content>
       <categories>
         <category>Hexo</category>
+        <category>butterfly主题配置</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -117,9 +125,62 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo之butterfly添加valine评论系统</title>
+    <url>/post/hexo/4/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="leanCloud官网-https-www-leancloud-cn"><a href="#leanCloud官网-https-www-leancloud-cn" class="headerlink" title="leanCloud官网 https://www.leancloud.cn/"></a>leanCloud官网 <a href="https://www.leancloud.cn/">https://www.leancloud.cn/</a></h2><h2 id="一-注册LeanCloud-获取AppID-AppKey"><a href="#一-注册LeanCloud-获取AppID-AppKey" class="headerlink" title="一.注册LeanCloud,获取AppID,AppKey"></a>一.注册LeanCloud,获取AppID,AppKey</h2><h3 id="1-注册完成后，创建应用"><a href="#1-注册完成后，创建应用" class="headerlink" title="1.注册完成后，创建应用"></a>1.注册完成后，创建应用</h3><p><img src="1.png"></p>
+<h3 id="2-创建Comment-Counter-权限设为所有用户"><a href="#2-创建Comment-Counter-权限设为所有用户" class="headerlink" title="2.创建Comment,Counter,权限设为所有用户"></a>2.创建Comment,Counter,权限设为所有用户</h3><p><img src="2.png"></p>
+<h3 id="3-绑定web安全域名，关闭除数据存储所有服务"><a href="#3-绑定web安全域名，关闭除数据存储所有服务" class="headerlink" title="3.绑定web安全域名，关闭除数据存储所有服务"></a>3.绑定web安全域名，关闭除数据存储所有服务</h3><p><img src="3.png"></p>
+<h3 id="4-获取AppID-AppKey-serverURLs"><a href="#4-获取AppID-AppKey-serverURLs" class="headerlink" title="4.获取AppID,AppKey,serverURLs"></a>4.获取AppID,AppKey,serverURLs</h3><p><img src="4.png"></p>
+<h2 id="二-butterfly主题中配置valine"><a href="#二-butterfly主题中配置valine" class="headerlink" title="二.butterfly主题中配置valine"></a>二.butterfly主题中配置valine</h2><h3 id="1-进入主题中-config-yml-找到comments-取消valine注释"><a href="#1-进入主题中-config-yml-找到comments-取消valine注释" class="headerlink" title="1.进入主题中_config.yml,找到comments,取消valine注释"></a>1.进入主题中_config.yml,找到comments,取消valine注释</h3><p><img src="5.png"></p>
+<h3 id="2-找到valine-配置其中appid-appkey-serverURLs"><a href="#2-找到valine-配置其中appid-appkey-serverURLs" class="headerlink" title="2.找到valine,配置其中appid,appkey,serverURLs"></a>2.找到valine,配置其中appid,appkey,serverURLs</h3><p><img src="6.png"></p>
+<h3 id="3-进入主题中butterfly-layout-third-party-comments-valine-pug目录中-让其中appid和appkey与前面修改变量一致。"><a href="#3-进入主题中butterfly-layout-third-party-comments-valine-pug目录中-让其中appid和appkey与前面修改变量一致。" class="headerlink" title="3.进入主题中butterfly/layout/third-party/comments/valine.pug目录中,让其中appid和appkey与前面修改变量一致。"></a>3.进入主题中butterfly/layout/third-party/comments/valine.pug目录中,让其中appid和appkey与前面修改变量一致。</h3><p><img src="7.png"></p>
+<h2 id="三-测试valine评论"><a href="#三-测试valine评论" class="headerlink" title="三.测试valine评论"></a>三.测试valine评论</h2><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p><img src="8.png"></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>valine评论系统</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>butterfly</tag>
+        <tag>valine</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo中安装音乐播放器插件及使用</title>
+    <url>/post/hexo/5/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!-- <script src="https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/js/WithoutLine.min.js"></script> -->
+
+<blockquote class="blockquote-center">简介</blockquote>
+
+<p>&emsp;&emsp;支持 QQ 音乐、网易云音乐、虾米、酷狗、百度等平台的音乐播放<br>Github地址：<a href="https://github.com/MoePlayer/hexo-tag-aplayer">https://github.com/MoePlayer/hexo-tag-aplayer</a><br>官方文档：<a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md</a></p>
+<blockquote class="blockquote-center">效果演示</blockquote>
+
+<p><img src="1.png"></p>
+<blockquote class="blockquote-center">安装插件及新建music文章</blockquote>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm i hexo-tap-aplayer -S</span><br><span class="line">hexo new page music</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">_config.yml配置</blockquote>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">aplayer:</span></span><br><span class="line"> <span class="attr">meting:</span> <span class="literal">true</span>                                  <span class="comment"># MetingJS 支持</span></span><br><span class="line"> <span class="attr">asset_inject:</span> <span class="literal">true</span>                            <span class="comment"># 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启</span></span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">插入music文章</blockquote>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% meting &quot;7206691517&quot; &quot;tencent&quot; &quot;playlist&quot; &quot;theme:#FF4081&quot; &quot;mode:circulation&quot;&quot;mutex:true&quot; &quot;listmaxheight:340px&quot; &quot;preload:auto&quot; %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote class="blockquote-center">插件属性值</blockquote>
+
+<p><img src="2.png"></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+        <category>aplayer音乐播放器</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>aplayer</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>node.js安装及配置环境变量</title>
     <url>/post/node/1/</url>
-    <content><![CDATA[<h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-Node-js：v16-13-1-64位"><a href="#2-Node-js：v16-13-1-64位" class="headerlink" title="2.Node.js：v16.13.1(64位)"></a>2.Node.js：v16.13.1(64位)</h3><h2 id="二-安装node-js步骤"><a href="#二-安装node-js步骤" class="headerlink" title="二.安装node.js步骤"></a>二.安装node.js步骤</h2><h3 id="1-下载路径-https-nodejs-org-zh-cn-download"><a href="#1-下载路径-https-nodejs-org-zh-cn-download" class="headerlink" title="1.下载路径 https://nodejs.org/zh-cn/download/"></a>1.下载路径 <a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></h3><h3 id="3-环境变量配置"><a href="#3-环境变量配置" class="headerlink" title="3.环境变量配置"></a>3.环境变量配置</h3><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="一-安装环境"><a href="#一-安装环境" class="headerlink" title="一.安装环境"></a>一.安装环境</h2><h3 id="1-本机系统：Windows-10-64位"><a href="#1-本机系统：Windows-10-64位" class="headerlink" title="1.本机系统：Windows 10(64位)"></a>1.本机系统：Windows 10(64位)</h3><h3 id="2-Node-js：v16-13-1-64位"><a href="#2-Node-js：v16-13-1-64位" class="headerlink" title="2.Node.js：v16.13.1(64位)"></a>2.Node.js：v16.13.1(64位)</h3><h2 id="二-安装node-js步骤"><a href="#二-安装node-js步骤" class="headerlink" title="二.安装node.js步骤"></a>二.安装node.js步骤</h2><h3 id="1-下载路径-https-nodejs-org-zh-cn-download"><a href="#1-下载路径-https-nodejs-org-zh-cn-download" class="headerlink" title="1.下载路径 https://nodejs.org/zh-cn/download/"></a>1.下载路径 <a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></h3><h3 id="3-环境变量配置"><a href="#3-环境变量配置" class="headerlink" title="3.环境变量配置"></a>3.环境变量配置</h3><h2 id="三-开始安装"><a href="#三-开始安装" class="headerlink" title="三.开始安装"></a>三.开始安装</h2><h3 id="1-选定自己下载的版本"><a href="#1-选定自己下载的版本" class="headerlink" title="1.选定自己下载的版本"></a>1.选定自己下载的版本</h3><p><img src="1.png"></p>
 <h3 id="2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js"><a href="#2-下载成功后，双击”node-v16-13-1-x64-msi”-开始安装node-js" class="headerlink" title="2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js"></a>2.下载成功后，双击”node-v16.13.1-x64.msi”,开始安装node.js</h3><p><img src="2.png"></p>
 <h3 id="3-点击【Next】按钮"><a href="#3-点击【Next】按钮" class="headerlink" title="3.点击【Next】按钮"></a>3.点击【Next】按钮</h3><p><img src="3.png"></p>
 <h3 id="4-勾选复选框，点击【Next】按钮"><a href="#4-勾选复选框，点击【Next】按钮" class="headerlink" title="4.勾选复选框，点击【Next】按钮"></a>4.勾选复选框，点击【Next】按钮</h3><p><img src="4.png"></p>
@@ -138,25 +199,75 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo之butterfly添加valine评论系统</title>
-    <url>/post/hexo/4/</url>
-    <content><![CDATA[<h2 id="leanCloud官网-https-www-leancloud-cn"><a href="#leanCloud官网-https-www-leancloud-cn" class="headerlink" title="leanCloud官网 https://www.leancloud.cn/"></a>leanCloud官网 <a href="https://www.leancloud.cn/">https://www.leancloud.cn/</a></h2><h2 id="一-注册LeanCloud-获取AppID-AppKey"><a href="#一-注册LeanCloud-获取AppID-AppKey" class="headerlink" title="一.注册LeanCloud,获取AppID,AppKey"></a>一.注册LeanCloud,获取AppID,AppKey</h2><h3 id="1-注册完成后，创建应用"><a href="#1-注册完成后，创建应用" class="headerlink" title="1.注册完成后，创建应用"></a>1.注册完成后，创建应用</h3><p><img src="1.png"></p>
-<h3 id="2-创建Comment-Counter-权限设为所有用户"><a href="#2-创建Comment-Counter-权限设为所有用户" class="headerlink" title="2.创建Comment,Counter,权限设为所有用户"></a>2.创建Comment,Counter,权限设为所有用户</h3><p><img src="2.png"></p>
-<h3 id="3-绑定web安全域名，关闭除数据存储所有服务"><a href="#3-绑定web安全域名，关闭除数据存储所有服务" class="headerlink" title="3.绑定web安全域名，关闭除数据存储所有服务"></a>3.绑定web安全域名，关闭除数据存储所有服务</h3><p><img src="3.png"></p>
-<h3 id="4-获取AppID-AppKey-serverURLs"><a href="#4-获取AppID-AppKey-serverURLs" class="headerlink" title="4.获取AppID,AppKey,serverURLs"></a>4.获取AppID,AppKey,serverURLs</h3><p><img src="4.png"></p>
-<h2 id="二-butterfly主题中配置valine"><a href="#二-butterfly主题中配置valine" class="headerlink" title="二.butterfly主题中配置valine"></a>二.butterfly主题中配置valine</h2><h3 id="1-进入主题中-config-yml-找到comments-取消valine注释"><a href="#1-进入主题中-config-yml-找到comments-取消valine注释" class="headerlink" title="1.进入主题中_config.yml,找到comments,取消valine注释"></a>1.进入主题中_config.yml,找到comments,取消valine注释</h3><p><img src="5.png"></p>
-<h3 id="2-找到valine-配置其中appid-appkey-serverURLs"><a href="#2-找到valine-配置其中appid-appkey-serverURLs" class="headerlink" title="2.找到valine,配置其中appid,appkey,serverURLs"></a>2.找到valine,配置其中appid,appkey,serverURLs</h3><p><img src="6.png"></p>
-<h3 id="3-进入主题中butterfly-layout-third-party-comments-valine-pug目录中-让其中appid和appkey与前面修改变量一致。"><a href="#3-进入主题中butterfly-layout-third-party-comments-valine-pug目录中-让其中appid和appkey与前面修改变量一致。" class="headerlink" title="3.进入主题中butterfly/layout/third-party/comments/valine.pug目录中,让其中appid和appkey与前面修改变量一致。"></a>3.进入主题中butterfly/layout/third-party/comments/valine.pug目录中,让其中appid和appkey与前面修改变量一致。</h3><p><img src="7.png"></p>
-<h2 id="三-测试valine评论"><a href="#三-测试valine评论" class="headerlink" title="三.测试valine评论"></a>三.测试valine评论</h2><figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p><img src="8.png"></p>
+    <title>Hexo中标签外挂使用</title>
+    <url>/post/hexo/6/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><!-- 文章引用 -->
+<blockquote><p>文章引用</p>
+<footer><strong>author</strong><cite>source link source_link_title</cite></footer></blockquote>
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line"> &lt;!-- blockquote或quote  --&gt;</span><br><span class="line"> &#123;% blockquote  author, source link title %&#125;  &lt;!-- 作者、来源，链接，标题 可选--&gt;</span><br><span class="line">   文章引用</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+<!-- 代码区域 -->
+<blockquote><p>代码区域</p>
+</blockquote>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% code lang:md %&#125;  &lt;!-- lang:md文件类型--&gt;</span><br><span class="line">   代码区域</span><br><span class="line">&#123;% endcode  %&#125;</span><br></pre></td></tr></table></figure>
+<!-- iframe -->
+<blockquote><p>iframe内联框架</p>
+</blockquote>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% iframe url width height %&#125;  &lt;!-- 路径 宽 高--&gt;</span><br></pre></td></tr></table></figure>
+<!-- image -->
+<blockquote><p>image图片</p>
+</blockquote>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% img classname path width height &quot;title text &#x27;alt text&#x27;&quot; %&#125;  &lt;!-- class 图片链接 宽 高 --&gt;</span><br></pre></td></tr></table></figure>
+<!-- link/a -->
+<blockquote><p>link/a跳转链接</p>
+</blockquote>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% link/a text url title %&#125;  &lt;!-- 文本 路径 title--&gt;</span><br></pre></td></tr></table></figure>
+<div class="note default flat"><p>default 提示块标籤</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note default %&#125;</span><br><span class="line">default 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note primary no-icon flat"><p>primary 提示块标籤</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line"> &#123;% note primary no-icon %&#125;</span><br><span class="line">primary 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="note success flat"><p>success 提示块标籤</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line"> &#123;% note success %&#125;</span><br><span class="line">success 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="note info flat"><p>info 提示块标籤</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line"> &#123;% note info %&#125;</span><br><span class="line">info 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="note warning flat"><p>warning 提示块标籤</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note warning %&#125;</span><br><span class="line">warning 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+
+<div class="note danger flat"><p>danger 提示块标籤</p>
+</div>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% note danger %&#125;</span><br><span class="line">danger 提示块标籤</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<blockquote><p>markdown 图片格式</p>
+</blockquote>
+
+<figure class="highlight md"><table><tr><td class="code"><pre><span class="line">&#123;% gallery %&#125;</span><br><span class="line">![](https://img.alicdn.com/imgextra/i4/39767794/O1CN01VzpkX427RhewJYLkK<span class="emphasis">_!!39767794.png)</span></span><br><span class="line"><span class="emphasis">![](https://img.alicdn.com/imgextra/i3/39767794/O1CN01mYhpJP27RhezkPhve_</span>!!39767794.jpg)</span><br><span class="line">&#123;% endgallery %&#125;</span><br></pre></td></tr></table></figure>
+<div class="justified-gallery"><p><img src="https://img.alicdn.com/imgextra/i4/39767794/O1CN01VzpkX427RhewJYLkK_!!39767794.png"><br><img src="https://img.alicdn.com/imgextra/i3/39767794/O1CN01mYhpJP27RhezkPhve_!!39767794.jpg"></p>
+          </div>
+
 ]]></content>
       <categories>
         <category>Hexo</category>
+        <category>标签外挂</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
-        <tag>butterfly</tag>
-        <tag>valine</tag>
+        <tag>tag</tag>
       </tags>
   </entry>
 </search>

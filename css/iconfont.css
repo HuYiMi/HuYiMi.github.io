@@ -1,20 +1,40 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3062847 */
-  src: url('//at.alicdn.com/t/font_3062847_vdku8yad7u.woff2?t=1640427963145') format('woff2'),
-       url('//at.alicdn.com/t/font_3062847_vdku8yad7u.woff?t=1640427963145') format('woff'),
-       url('//at.alicdn.com/t/font_3062847_vdku8yad7u.ttf?t=1640427963145') format('truetype');
+  src: url('//at.alicdn.com/t/font_3062847_8zqy6tu5ivn.woff2?t=1640663432364') format('woff2'),
+       url('//at.alicdn.com/t/font_3062847_8zqy6tu5ivn.woff?t=1640663432364') format('woff'),
+       url('//at.alicdn.com/t/font_3062847_8zqy6tu5ivn.ttf?t=1640663432364') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-lament_fill:before {
+  content: "\e81a";
+}
+
+.icon-xuexi:before {
+  content: "\e60d";
+}
+
 .icon-gitee:before {
   content: "\e60c";
-  font-size: 20px;
+}
+
+
+.icon-gitee{
+  transition: all 1s   /* 旋转时间为 1s */
+}
+
+.icon-gitee:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
 }
 
